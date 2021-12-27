@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+	--primary-white: #fff;
+	--primary-orange: #f9ab00;
+	--primary-dark: rgba(255, 255, 255, 0);
+}
+body {
+	font-family: "Robot-Condensed" sans-serif;
+}
+
+.logo {
+	width: 3.8rem;
+	height: 3.8rem;
+}
+
+nav a.nav-link {
+	letter-spacing: 0.0375rem !important;
+	cursor: pointer !important;
+}
+
+nav ul li {
+	text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+	align-self: auto;
+	margin-right: 0.75rem;
+	margin-left: 0.75rem;
+	color: var(--primary-white) !important;
+	border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+	max-width: 17.25rem;
+	padding: 0 !important;
+	height: 6rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+	border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+	border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.header-wrapper {
+	position: relative;
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200vh;
+}
+
+.main-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Robot-Condensed" sans-serif !important;
+}
+
+.main-info h1 {
+	color: var(--primary-orange);
+	text-transform: uppercase;
+}
+
+.typed-text {
+	font-size: 2rem;
+	color: yellowgreen;
+}
